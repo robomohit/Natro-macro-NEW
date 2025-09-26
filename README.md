@@ -1,172 +1,95 @@
-# 🐝 Buzzworthy AI Hub - Bee Swarm Simulator Macro
+<!--
+  /\ \ \__ _| |_ _ __ ___     /\/\   __ _  ___ _ __ ___  
+ /  \/ / _` | __| '__/ _ \   /    \ / _` |/ __| '__/ _ \ 
+/ /\  / (_| | |_| | | (_) | / /\/\ \ (_| | (__| | | (_) |
+\_\ \/ \__,_|\__|_|  \___/  \/    \/\__,_|\___|_|  \___/                                                    
+
+Thanks for downloading Natro Macro!
+
+To start the macro, just open 'START.bat'!
+
+If you need help or want to discuss, join our Discord server!
+
+Feel free to give us a Star on GitHub!
+
+IMPORTANT:
+Make sure you are only downloading from an official source!
+The only official sources are:
+ - our GitHub page (https://github.com/NatroTeam/NatroMacro)
+ - our Discord server (https://discord.gg/natromacro)
+
+>>> IGNORE BELOW THIS LINE <<<
+-->
+
+<!-- no offical site warning -->
+> [!CAUTION]
+> We do **not** have a website. The only offical place to download Natro Macro is this repoistry and [discord.gg/natromacro][discord-link].
 
 <div align="center">
 
-![Buzzworthy AI Hub Logo](https://buzzworthy-ai-hub.lovable.app/favicon.ico)
+<!-- logo banner -->
+<picture>
+  <source width="200px" media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/NatroTeam/.github/main/profile/assets/banners/natro-logo-light.svg"> <!-- light theme (black text) -->
+  <img src="https://raw.githubusercontent.com/NatroTeam/.github/main/profile/assets/banners/natro-logo-dark.svg"> <!-- dark theme (light text) -->
+</picture>
+<br>
 
-**Advanced Bee Swarm Simulator Automation with Real-Time Dashboard**
-
+<!-- shields and contents -->
+[![][latest-release-shield]][latest-release-link]
+[![][downloads-shield]][downloads-link]
 [![][discord-shield]][discord-link]
 [![][roblox-shield]][roblox-link]
-[![][website-shield]][website-link]
 <br>
-*Monitor your macro from anywhere with live stats and analytics!*
+An open-source Bee Swarm Simulator macro written in AutoHotkey!<br>
 </div>
-
----
-
-## 🚀 Quick Start
-
-1. **Download** the latest release from GitHub
-2. **Extract** the files to a folder
-3. **Run `START.bat`** to launch the macro
-4. **Get your API key** from the web dashboard
-5. **Connect your macro** to start tracking!
-
----
-
-## 📊 Web Dashboard
-
-Visit **[Buzzworthy AI Hub](https://buzzworthy-ai-hub.lovable.app/)** to:
-- 📈 **Monitor your macro in real-time**
-- 📊 **View comprehensive statistics**
-- 🔑 **Generate API keys for tracking**
-- 🎥 **Watch demo videos**
-- 💬 **Join the Discord community**
-
-### 🌟 Dashboard Features
-- **Live honey tracking** (total, session, per-hour rates)
-- **Field boost monitoring** (balloon, glitter, smoothie status)
-- **Real-time activity logs** (gathering, converting, traveling)
-- **Performance analytics** (conversions, runtime, efficiency)
-- **Cross-platform access** (works on mobile, tablet, desktop)
 
 
 <a name="installation"><h2>🛠️ Installation</h2></a>
 
-## 🔑 API Key Setup
-
-To connect your macro to the web dashboard, you need to generate an API key:
-
-### **Step 1: Get Your API Key**
-1. **Visit** [Buzzworthy AI Hub](https://buzzworthy-ai-hub.lovable.app/)
-2. **Sign up or log in** with your email
-3. **Navigate to "API Key Management"** in the sidebar
-4. **Click "Create New API Key"**
-5. **Name your key** (e.g., "My Macro Key")
-6. **Copy the generated key** (looks like `bz_58389kdkntw7diyxexemjl...`)
-
-### **Step 2: Connect Your Macro**
-1. **Open your macro** by running `START.bat`
-2. **Navigate to the "Web Tracker" tab**
-3. **Check "Enable Web Tracking"**
-4. **Paste your API key** in the "API Key" field
-5. **Click the "Test" button** to verify connection
-6. **Start your macro** - data will appear on your dashboard!
-
-### **Step 3: Monitor Your Progress**
-- **Refresh your dashboard** - see live stats instantly!
-- **View detailed analytics** - honey rates, boost status, activity logs
-- **Track from anywhere** - works on any device with internet
-
----
-
-## 🛠️ Installation
-
-1. **Download** the latest `Natro_Macro_v#.#.#.zip` from [GitHub Releases](https://github.com/NatroTeam/NatroMacro/releases)
-2. **Extract** all files to a folder
-3. **Run `START.bat`** to start the macro
-4. **Wait for initialization** (may take 1-2 minutes)
-
----
-
-## 📋 Requirements
-
-- **Windows 10/11** (64-bit recommended)
-- **Roblox** installed and updated
-- **Bee Swarm Simulator** game access
-- **Internet connection** (for dashboard features)
-
----
-
-## 🌎 Community & Support
-
-### **Join Our Discord Community!**
-**[Discord Server](https://discord.com/invite/HDJk6aEyt4)**
-
-Get help, share configurations, and stay updated with:
-- 🆘 **Troubleshooting assistance**
-- 📚 **Setup guides and tutorials**
-- 🎯 **Custom patterns and paths**
-- 📰 **Update announcements**
-- 💬 **Community discussions**
-
-### **Website Support**
-- **Visit** [Buzzworthy AI Hub](https://buzzworthy-ai-hub.lovable.app/) for web dashboard
-- **Documentation** available on the website
-- **Video tutorials** and demo content
-
----
-
-## ⚠️ Important Notes
-
-### **Security & Safety**
-- ✅ **Only download from official sources**
-- 🔒 **Your API keys are secure and private**
-- 🛡️ **Dashboard data is encrypted and protected**
-- 📊 **No personal game data is stored**
-
-### **Troubleshooting**
-1. **Macro not starting?** Run as Administrator
-2. **Dashboard not updating?** Check your API key and test connection
-3. **Performance issues?** Close unnecessary programs
-4. **Need help?** Join our Discord community!
-
----
-
-## 🎮 Game Integration
-
-This macro works with:
-- ✅ **Bee Swarm Simulator** (all fields and activities)
-- ✅ **All boost types** (balloon, glitter, smoothie, etc.)
-- ✅ **Planter management** and harvesting
-- ✅ **Quest completion** and tracking
-- ✅ **Real-time statistics** and analytics
-
----
-
-## 📈 Advanced Features
-
-- **Multi-field automation** with custom patterns
-- **Smart boost detection** and management
-- **Dynamic path optimization** for efficiency
-- **Real-time web dashboard** with live updates
-- **Customizable settings** for all playstyles
-- **Comprehensive logging** for debugging
+1. Download `Natro_Macro_v#.#.#.zip` from the [latest release][latest-release-link]
+2. Open `Natro_Macro_v#.#.#` and double-click the folder inside
+3. Run `START.bat` and wait for the macro to load
 
 
-## 📝 License & Credits
+<a name="community"><h2>🌎 Community</h2></a>
 
-### **License**
-Copyright © 2022-2024 Natro Team & Buzzworthy AI Hub
-This project is licensed under [GNU GPL v3.0](./LICENSE.md)
+[**Join us on Discord!**][discord-link]
 
-### **Credits**
-Natro Macro wouldn't be possible without:
-- **Original Natro Team** for the base macro functionality
-- **Buzzworthy AI Hub** for the web dashboard and API system
-- **Open-source community** for tools and libraries
-- **All contributors** who help improve the project
+This is where you can connect with the community, access guides and help channels, and download custom patterns, paths, and themes!
+
+Discord is our main platform for troubleshooting and update news!
+
+<a href="https://discord.gg/natromacro">
+  <picture>
+    <source media="(prefers-color-scheme: light)" srcset="http://invidget.switchblade.xyz/natromacro?theme=light"> <!-- light theme -->
+    <img alt="discord-invite-widget" width=500 src="http://invidget.switchblade.xyz/natromacro"> <!-- dark theme -->
+  </picture>
+</a>
+
+
+<a name="contributing"><h2>⌨️ Contributing</h2></a>
+
+Natro Macro is an open-source project. We greatly appreciate all contributions, whether you are helping us fix bugs or suggesting new features. If you want to get started, read our [Contributing Guidelines][contributing-link] first.
+
+- **Bugs**: If you find an issue or run into an error message while using the macro, please create a [bug report][bug-report-link].
+- **Suggestions**: If you have an idea for a feature that you'd like to see in the macro, please submit a [suggestion][suggestion-link].
+
+For discussions, please join us on [Discord][discord-link] instead!
+
+
+<a name="credits"><h2>💝 Credits</h2></a>
+
+Natro Macro wouldn't be possible without the help and inspiration of many extraordinary individuals.<br>
+We want to show our gratitude to all of you, so please check out our [list of credits][credits-link]!
 
 Thank you all for your hard work and support!
 
----
 
-## 🌟 Show Your Support
+<a name="stars"><h2>🌠 Stars</h2></a>
 
-If Buzzworthy AI Hub helped you automate your Bee Swarm Simulator experience:
+If Natro Macro helped you, let us know by giving it a ⭐ $\color{yellow}{\textsf{Star}}$ on GitHub!<br>
+You can do this by scrolling up and clicking the Star button at the top of the page!
 
-### **⭐ Give us a Star!**
 <a href="https://github.com/NatroTeam/NatroMacro/stargazers">
   <picture>
     <source media="(prefers-color-scheme: light)" srcset="http://reporoster.com/stars/NatroTeam/NatroMacro"> <!-- light theme -->
@@ -174,51 +97,25 @@ If Buzzworthy AI Hub helped you automate your Bee Swarm Simulator experience:
   </picture>
 </a>
 
-### **💬 Join the Community**
-- **[Discord Server](https://discord.com/invite/HDJk6aEyt4)** - Get help and share experiences
-- **[Website](https://buzzworthy-ai-hub.lovable.app/)** - Access dashboard and documentation
 
----
+<a name="license"><details><summary><h4>📝 License</h4></summary></a>
+Copyright © 2022-2024 [Natro Team][github-profile-link]<br>
+This project is licensed under [GNU GPL v3.0](./LICENSE.md)
 
-## 🐛 Contributing & Issues
+</details>
 
-### **Found a Bug?**
-1. **Check our Discord** for known issues
-2. **Create a bug report** on GitHub with detailed information
-3. **Include screenshots** and error messages when possible
-
-### **Have a Suggestion?**
-We love hearing new ideas! Join our Discord to discuss features or submit suggestions.
-
-### **Want to Contribute?**
-- **Fork the repository** and make improvements
-- **Submit pull requests** with clear descriptions
-- **Follow our coding standards** and best practices
-
----
-
-## 🔗 Links & Resources
-
-- **📊 [Web Dashboard](https://buzzworthy-ai-hub.lovable.app/)** - Monitor your macro anywhere
-- **💬 [Discord Community](https://discord.com/invite/HDJk6aEyt4)** - Get help and updates
-- **📥 [Download Latest Release](https://github.com/NatroTeam/NatroMacro/releases/latest)** - Get the macro
-- **🐛 [Report Issues](https://github.com/NatroTeam/NatroMacro/issues)** - Help us improve
-- **📚 [GitHub Repository](https://github.com/NatroTeam/NatroMacro)** - Source code and documentation
-
----
-
-<div align="center">
-
-**Made with ❤️ by the Natro Team & Buzzworthy AI Hub Community**
-
-*Happy automating! 🐝*
-
-</div>
-
-<!-- Badge Links -->
-[website-shield]: https://img.shields.io/badge/Website-Buzzworthy%20AI%20Hub-blue?style=flat&logo=world&logoColor=white
-[website-link]: https://buzzworthy-ai-hub.lovable.app/
-[discord-shield]: https://img.shields.io/discord/1012610056921038868?logo=discord&logoColor=white&label=discord&labelColor=black&color=5865f2
-[discord-link]: https://discord.com/invite/HDJk6aEyt4
+<!-- links -->
+[latest-release-shield]: https://img.shields.io/github/v/release/NatroTeam/NatroMacro?logo=github&logoColor=white&labelColor=black&color=faa125
+[latest-release-link]: https://github.com/NatroTeam/NatroMacro/releases/latest
+[downloads-shield]: https://img.shields.io/github/downloads/NatroTeam/NatroMacro/total?label=downloads&labelColor=black&color=40ca53&logo=data:image/svg%2bxml;base64,PHN2ZwogICB2aWV3Qm94PSIwIDAgMjQgMjQiCiAgIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CiAgPHBhdGgKICAgICBmaWxsPSIjZmZmIgogICAgIGQ9Ik0gMTIsMC4yMDk2MTUxNSBBIDExLjc5MDM4NSwxMS43OTAzODUgMCAxIDAgMjMuNzkwMzg1LDEyIDExLjc5MDM4NSwxMS43OTAzODUgMCAwIDAgMTIsMC4yMDk2MTUxNSBaIE0gOS4zMDAwMDE5LDkuOTgzODQ0MiAxMC44MjA5NjIsMTEuNTE2NTk0IFYgNC45MjU3NjkxIGggMi4zNTgwNzYgViAxMS41MTY1OTQgTCAxNC42OTk5OTgsOS45OTU2MzQ2IDE2LjM2MjQ0MiwxMS42NTgwNzkgMTIsMTYuMDIwNTIxIDcuNjI1NzY3MiwxMS42NTgwNzkgWiBNIDE2LjcxNjE1NCwxOS4wNzQyMzEgSCA3LjI4Mzg0NjEgdiAtMi4zNTgwNzcgaCA5LjQzMjMwNzkgeiIKICAgICAvPgo8L3N2Zz4K
+[downloads-link]: https://github.com/NatroTeam/NatroMacro/releases
 [roblox-shield]: https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fgroups.roblox.com%2Fv1%2Fgroups%2F16490149&query=%24.memberCount&suffix=%20members&logo=roblox&logoColor=white&label=roblox&labelColor=black&color=dc3544
 [roblox-link]: https://www.roblox.com/groups/16490149/Natro-Macro
+[discord-shield]: https://img.shields.io/discord/1012610056921038868?logo=discord&logoColor=white&label=discord&labelColor=black&color=5865f2
+[discord-link]: https://discord.gg/natromacro
+[contributing-link]: https://github.com/NatroTeam/.github/blob/main/CONTRIBUTING.md
+[credits-link]: https://github.com/NatroTeam/.github/blob/main/CREDITS.md
+[bug-report-link]: https://github.com/NatroTeam/NatroMacro/issues/new?assignees=&labels=bug%2Cneeds+triage&projects=&template=bug.yml
+[suggestion-link]: https://github.com/NatroTeam/NatroMacro/issues/new?assignees=&labels=suggestion%2Cneeds+triage&projects=&template=suggestion.yml
+[github-profile-link]: http://github.com/NatroTeam
+[discord-banner-link]: https://invidget.switchblade.xyz/natromacro
