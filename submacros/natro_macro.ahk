@@ -33,6 +33,8 @@ try {
     #Include "nowUnix.ahk"
     #Include "enum\EnumStr.ahk"
     #Include "enum\EnumInt.ahk"
+    #Include "nm_OpenMenu.ahk"
+    #Include "nm_InventorySearch.ahk"
 } catch Error as e {
     MsgBox "Missing required library files: " e.Message "`nSome features may not work correctly.", "Warning", "Iconi"
 }
@@ -10298,14 +10300,6 @@ nm_Start(){
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ; FUNCTIONS
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-; Include additional helper functions with error handling (optional)
-try {
-    #Include "%A_ScriptDir%\..\lib\"
-    #Include "%A_ScriptDir%\nm_OpenMenu.ahk"
-    #Include "%A_ScriptDir%\nm_InventorySearch.ahk"
-} catch Error as e {
-    ; These files are optional - macro can work without them
-}
 ;interrupts
 nm_MondoInterrupt() => (utc_min := FormatTime(A_NowUTC, "m"), now := nowUnix(),
 	((MondoBuffCheck = 1) && ((utc_min<14 && (now-LastMondoBuff)>960 && MondoAction="Kill")
