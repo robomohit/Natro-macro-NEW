@@ -21,7 +21,7 @@ try {
     #Include "%A_ScriptDir%\DurationFromSeconds.ahk"
     #Include "%A_ScriptDir%\nowUnix.ahk"
 } catch Error as e {
-    MsgBox "Missing required library files: " e.Message "`nSome features may not work correctly.", "Warning", "Iconi"
+    MsgBox "Missing required library files. Some features may not work correctly.", "Warning", "Iconi"
 }
 
 OnError (e, mode) => (mode = "Return") ? -1 : 0

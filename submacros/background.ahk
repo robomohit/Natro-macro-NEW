@@ -18,18 +18,18 @@ You should have received a copy of the license along with Natro Macro. If not, p
 ; Include core libraries with error handling
 try {
     #Include "%A_ScriptDir%\..\lib\"
-    #Include "Gdip_All.ahk"
-    #Include "Gdip_ImageSearch.ahk"
+    #Include "%A_ScriptDir%\Gdip_All.ahk"
+    #Include "%A_ScriptDir%\Gdip_ImageSearch.ahk"
 } catch Error as e {
-    MsgBox "Missing required library files: " e.Message "`nSome features may not work correctly.", "Warning", "Iconi"
+    MsgBox "Missing required library files. Some features may not work correctly.", "Warning", "Iconi"
 }
 
 ; Initialize global variables
 ; Include additional helper files with error handling (optional)
 try {
-    #Include "Roblox.ahk"
-    #Include "DurationFromSeconds.ahk"
-    #Include "nowUnix.ahk"
+    #Include "%A_ScriptDir%\Roblox.ahk"
+    #Include "%A_ScriptDir%\DurationFromSeconds.ahk"
+    #Include "%A_ScriptDir%\nowUnix.ahk"
 } catch Error as e {
     ; These files are optional - macro can work without them
 }
