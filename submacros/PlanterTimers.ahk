@@ -20,7 +20,7 @@ try {
     #Include "%A_ScriptDir%\Gdip_All.ahk"
     #Include "%A_ScriptDir%\DurationFromSeconds.ahk"
     #Include "%A_ScriptDir%\..\lib\nowUnix.ahk"
-    #Include "debug.ahk"
+    #Include "%A_ScriptDir%\debug.ahk"
 } catch Error as e {
     ; Log error to file for debugging
     nm_LogError("PlanterTimers include failed", e)

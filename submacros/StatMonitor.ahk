@@ -22,7 +22,7 @@ try {
     #Include "%A_ScriptDir%\Roblox.ahk"
     #Include "%A_ScriptDir%\DurationFromSeconds.ahk"
     #Include "%A_ScriptDir%\..\lib\nowUnix.ahk"
-    #Include "debug.ahk"
+    #Include "%A_ScriptDir%\debug.ahk"
 } catch Error as e {
     ; Log error to file for debugging
     nm_LogError("StatMonitor include failed", e)

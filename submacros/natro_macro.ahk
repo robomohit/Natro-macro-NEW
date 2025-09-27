@@ -41,7 +41,7 @@ try {
     ; These files are optional - macro can work without them
 }
 
-#Include "debug.ahk"
+#Include "%A_ScriptDir%\debug.ahk"
 nm_InitDebug()
 
 #Warn VarUnset, Off
