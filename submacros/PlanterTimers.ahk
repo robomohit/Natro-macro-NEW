@@ -22,8 +22,11 @@ try {
     #Include "%A_ScriptDir%\..\lib\nowUnix.ahk"
 } catch Error as e {
     ; Log error to file for debugging
-    try FileAppend "PlanterTimers include failed: " e.Message "`n", "debug.log"
+    nm_LogError("PlanterTimers include failed", e)
 }
+
+#Include "debug.ahk"
+nm_InitDebug()
 
 OnError (e, mode) => (mode = "Return") ? -1 : 0
 DetectHiddenWindows 1

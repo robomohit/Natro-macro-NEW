@@ -25,6 +25,9 @@ try {
 }
 
 ; Initialize global variables
+#Include "debug.ahk"
+nm_InitDebug()
+
 ; Include additional helper files with error handling (optional)
 try {
     #Include "%A_ScriptDir%\Roblox.ahk"
@@ -32,7 +35,7 @@ try {
     #Include "%A_ScriptDir%\..\lib\nowUnix.ahk"
 } catch Error as e {
     ; Log error but continue - these files are optional
-    FileAppend "Optional include failed: " e.Message "`n", "debug.log"
+    nm_LogError("Optional include failed", e)
 }
 
 OnError (e, mode) => (mode = "Return") ? -1 : 0

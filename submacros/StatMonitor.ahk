@@ -24,8 +24,11 @@ try {
     #Include "%A_ScriptDir%\..\lib\nowUnix.ahk"
 } catch Error as e {
     ; Log error to file for debugging
-    try FileAppend "StatMonitor include failed: " e.Message "`n", "debug.log"
+    nm_LogError("StatMonitor include failed", e)
 }
+
+#Include "debug.ahk"
+nm_InitDebug()
 
 #Warn VarUnset, Off
 
