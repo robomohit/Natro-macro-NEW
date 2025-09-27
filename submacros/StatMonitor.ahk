@@ -21,9 +21,10 @@ try {
     #Include "%A_ScriptDir%\Gdip_ImageSearch.ahk"
     #Include "%A_ScriptDir%\Roblox.ahk"
     #Include "%A_ScriptDir%\DurationFromSeconds.ahk"
-    #Include "%A_ScriptDir%\nowUnix.ahk"
+    #Include "%A_ScriptDir%\..\lib\nowUnix.ahk"
 } catch Error as e {
-    MsgBox "Missing required library files. Some features may not work correctly.", "Warning", "Iconi"
+    ; Log error to file for debugging
+    try FileAppend "StatMonitor include failed: " e.Message "`n", "debug.log"
 }
 
 #Warn VarUnset, Off

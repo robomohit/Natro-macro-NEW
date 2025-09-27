@@ -29,9 +29,10 @@ try {
 try {
     #Include "%A_ScriptDir%\Roblox.ahk"
     #Include "%A_ScriptDir%\DurationFromSeconds.ahk"
-    #Include "%A_ScriptDir%\nowUnix.ahk"
+    #Include "%A_ScriptDir%\..\lib\nowUnix.ahk"
 } catch Error as e {
-    ; These files are optional - macro can work without them
+    ; Log error but continue - these files are optional
+    FileAppend "Optional include failed: " e.Message "`n", "debug.log"
 }
 
 OnError (e, mode) => (mode = "Return") ? -1 : 0

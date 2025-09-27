@@ -19,9 +19,10 @@ try {
     #Include "%A_ScriptDir%\..\lib\"
     #Include "%A_ScriptDir%\Gdip_All.ahk"
     #Include "%A_ScriptDir%\DurationFromSeconds.ahk"
-    #Include "%A_ScriptDir%\nowUnix.ahk"
+    #Include "%A_ScriptDir%\..\lib\nowUnix.ahk"
 } catch Error as e {
-    MsgBox "Missing required library files. Some features may not work correctly.", "Warning", "Iconi"
+    ; Log error to file for debugging
+    try FileAppend "PlanterTimers include failed: " e.Message "`n", "debug.log"
 }
 
 OnError (e, mode) => (mode = "Return") ? -1 : 0
