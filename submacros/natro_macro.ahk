@@ -687,12 +687,7 @@ nm_importPatterns()
 			FieldName:=FieldPattern:=FieldPatternSize:=FieldReturnType:=FieldSprinklerLoc:=FieldRotateDirection:=""
 			FieldUntilPack:=FieldPatternReps:=FieldPatternShift:=FieldSprinklerDist:=FieldRotateTimes:=FieldDriftCheck:=FieldPatternInvertFB:=FieldPatternInvertLR:=FieldUntilMins:=0
 
-			Walk(param1, param2?) => ""
-			HyperSleep(param1) => ""
-			nm_Walk(param1, param2, param3?) => ""
-			Gdip_ImageSearch(*) => ""
-			Gdip_BitmapFromBase64(*) => ""
-			nm_CameraRotation(param1, param2) => ""
+			; Real functions are loaded from includes above
 
 			' pattern '
 
