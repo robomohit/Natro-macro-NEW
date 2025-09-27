@@ -16,22 +16,8 @@ You should have received a copy of the license along with Natro Macro. If not, p
 #MaxThreads 255
 #Warn VarUnset, Off
 
-; Stub declarations for external functions to eliminate linter warnings
-; These are placed BEFORE includes so they don't override real implementations
-Gdip_Startup() => 1
-Gdip_BitmapFromBase64(str) => 0
-Gdip_BitmapFromScreen(x:="", y:="", w:="", h:="") => 0
-Gdip_DisposeImage(pBM) => 0
-Gdip_CreateBitmap(w, h, format:="") => 0
-Gdip_GraphicsFromImage(pBM) => 0
-Gdip_DrawImage(G, pBM, x:=0, y:=0, w:="", h:="", matrix:="", unit:="", attributes:="") => 0
-Gdip_DeleteGraphics(G) => 0
-Gdip_SaveBitmapToStream(pBM, format:="", quality:="") => 0
-GetRobloxHWND() => 0
-GetRobloxClientPos(hwnd:="") => 0
-GetYOffset(hwnd) => 0
-hmsFromSeconds(seconds) => "00:00:00"
-DurationFromSeconds(seconds, format_string:="") => "0s"
+; Note: External functions are loaded from included files below
+; No stub declarations needed as they would override real implementations
 
 #Include "%A_ScriptDir%\..\lib\"
 #Include "%A_ScriptDir%\Gdip_All.ahk"  ; Gdip library for image processing

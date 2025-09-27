@@ -22,21 +22,23 @@ You should have received a copy of the license along with Natro Macro. If not, p
 #Requires AutoHotkey v2.0
 #SingleInstance Force
 
-; Include core libraries with error handling
+; Include core libraries - these are required for basic functionality
+#Include "%A_ScriptDir%\..\lib"
+#Include "Gdip_All.ahk"
+#Include "Gdip_ImageSearch.ahk"
+#Include "JSON.ahk"
+#Include "Roblox.ahk"
+#Include "DurationFromSeconds.ahk"
+#Include "nowUnix.ahk"
+#Include "enum\EnumStr.ahk"
+#Include "enum\EnumInt.ahk"
+
+; Include additional helper functions with error handling (optional)
 try {
-    #Include "%A_ScriptDir%\..\lib"
-    #Include "Gdip_All.ahk"
-    #Include "Gdip_ImageSearch.ahk"
-    #Include "JSON.ahk"
-    #Include "Roblox.ahk"
-    #Include "DurationFromSeconds.ahk"
-    #Include "nowUnix.ahk"
-    #Include "enum\EnumStr.ahk"
-    #Include "enum\EnumInt.ahk"
     #Include "nm_OpenMenu.ahk"
     #Include "nm_InventorySearch.ahk"
 } catch Error as e {
-    MsgBox "Missing required library files: " e.Message "`nSome features may not work correctly.", "Warning", "Iconi"
+    ; These files are optional - macro can work without them
 }
 
 #Warn VarUnset, Off
