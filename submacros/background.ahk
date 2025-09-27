@@ -18,8 +18,8 @@ You should have received a copy of the license along with Natro Macro. If not, p
 ; Include core libraries with error handling
 try {
     #Include "%A_ScriptDir%\..\lib\"
-    #Include "%A_ScriptDir%\Gdip_All.ahk"
-    #Include "%A_ScriptDir%\Gdip_ImageSearch.ahk"
+    #Include "Gdip_All.ahk"
+    #Include "Gdip_ImageSearch.ahk"
 } catch Error as e {
     MsgBox "Missing required library files: " e.Message "`nSome features may not work correctly.", "Warning", "Iconi"
 }
@@ -492,34 +492,8 @@ nm_EmergencyBalloon(){
 	}
 }
 
-nm_sendHeartbeat(*){
-	Critical
-	if WinExist("Heartbeat.ahk ahk_class AutoHotkey") {
-		PostMessage 0x5556, 2
-	}
-	return 0
-}
-
-nm_setGlobalInt(wParam, lParam, *)
-{
-	global
-	Critical
-
-	local var := arr[wParam]
-	try %var% := lParam
-	return 0
-}
-
-nm_setGlobalStr(wParam, lParam, *)
-{
-	global
-	Critical
-	static sections := ["Boost","Collect","Gather","Planters","Quests","Settings","Status","Blender","Shrine"]
-
-	local var := arr[wParam], section := sections[lParam]
-	try %var% := IniRead("settings\nm_config.ini", section, var)
-	return 0
-}
+; Note: These functions are already defined in the main macro file
+; Removed duplicate definitions to avoid conflicts
 
 Send_WM_COPYDATA(StringToSend, TargetScriptTitle, wParam:=0)
 {
