@@ -22,12 +22,13 @@ try {
     #Include "%A_ScriptDir%\Roblox.ahk"
     #Include "%A_ScriptDir%\DurationFromSeconds.ahk"
     #Include "%A_ScriptDir%\..\lib\nowUnix.ahk"
+    #Include "debug.ahk"
 } catch Error as e {
     ; Log error to file for debugging
     nm_LogError("StatMonitor include failed", e)
 }
 
-#Include "debug.ahk"
+; Initialize debug logging after includes
 nm_InitDebug()
 
 #Warn VarUnset, Off

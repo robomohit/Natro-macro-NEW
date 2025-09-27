@@ -41,6 +41,9 @@ try {
     ; These files are optional - macro can work without them
 }
 
+#Include "debug.ahk"
+nm_InitDebug()
+
 #Warn VarUnset, Off
 OnError (e, mode) => (mode = "Return") ? -1 : 0
 

@@ -25,18 +25,19 @@ try {
 }
 
 ; Initialize global variables
-#Include "debug.ahk"
-nm_InitDebug()
-
 ; Include additional helper files with error handling (optional)
 try {
     #Include "%A_ScriptDir%\Roblox.ahk"
     #Include "%A_ScriptDir%\DurationFromSeconds.ahk"
     #Include "%A_ScriptDir%\..\lib\nowUnix.ahk"
+    #Include "debug.ahk"
 } catch Error as e {
     ; Log error but continue - these files are optional
     nm_LogError("Optional include failed", e)
 }
+
+; Initialize debug logging after includes
+nm_InitDebug()
 
 OnError (e, mode) => (mode = "Return") ? -1 : 0
 SetWorkingDir A_ScriptDir "\.."
